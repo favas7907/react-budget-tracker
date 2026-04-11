@@ -1,0 +1,5 @@
+{
+  "name": "TealBudget",
+  "description": "A minimal, responsive budget management app with local persistence and teal accents.",
+  "requestFramePermissions": []
+}
