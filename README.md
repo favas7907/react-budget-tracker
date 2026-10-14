@@ -1,86 +1,122 @@
-💸 React Budget Tracker
+<div align="center">
+  <h1>💸 React Budget Tracker</h1>
+  <p><strong>Take control of your budget. Track every expense. Spend smarter.</strong></p>
+  <p>
+    A simple, responsive, and interactive personal finance application built with React.js.
+  </p>
+</div>
 
-Take control of your budget. Track every expense. Spend smarter.
+<hr />
 
-React Budget Tracker is a simple, responsive, and interactive personal finance application built with React.js. It helps users create budgets, record expenses, monitor spending, and track remaining balances through a clean and intuitive interface.
+<h2>📖 About the Project</h2>
 
-Designed with a modern black, white, and teal-blue theme, the application combines essential budgeting features with a lightweight frontend architecture. All budget and expense data is stored locally in the browser, making the application easy to use without requiring an account or backend.
+<p>
+  <strong>React Budget Tracker</strong> helps users create budgets, record expenses,
+  monitor spending, and track their remaining balances. The application uses a
+  modern black, white, and teal-blue design with a lightweight frontend architecture.
+</p>
 
----
+<p>
+  All budget, expense, and user data is stored locally in the browser using
+  <code>localStorage</code>, so the application works without a backend or database.
+</p>
 
-✨ Features
+<h2>✨ Features</h2>
 
-📊 Budget Management
+<h3>📊 Budget Management</h3>
+<ul>
+  <li>Create budgets with custom names and spending limits.</li>
+  <li>View all budgets in an organized card layout.</li>
+  <li>Track total budget, amount spent, and remaining balance.</li>
+  <li>Visualize spending progress with progress bars.</li>
+  <li>Identify overspending with clear visual indicators.</li>
+  <li>Delete budgets and their associated expenses.</li>
+</ul>
 
-- Create budgets with custom names and spending limits.
-- View all budgets in an organized card layout.
-- Track total budget, amount spent, and remaining balance.
-- Visualize spending progress with progress bars.
-- Identify overspending with clear visual indicators.
-- Delete budgets and their associated expenses.
+<h3>💳 Expense Tracking</h3>
+<ul>
+  <li>Record expenses with a name, amount, and associated budget.</li>
+  <li>View expenses in an organized list.</li>
+  <li>Identify which budget each expense belongs to.</li>
+  <li>Delete individual expenses.</li>
+  <li>Automatically update budget totals when expenses change.</li>
+</ul>
 
-💳 Expense Tracking
+<h3>👋 Simple Onboarding</h3>
+<ul>
+  <li>Start with a welcoming page that asks for your name.</li>
+  <li>Save your name locally for subsequent visits.</li>
+  <li>Display a personalized greeting on the dashboard.</li>
+  <li>Skip onboarding when a saved name is available.</li>
+</ul>
 
-- Record expenses with a name, amount, and associated budget.
-- View expenses in an organized list.
-- Identify which budget each expense belongs to.
-- Delete individual expenses.
-- Automatically update budget totals when expenses change.
+<h3>💾 Local Data Persistence</h3>
+<ul>
+  <li>Save budgets, expenses, and the user's name in <code>localStorage</code>.</li>
+  <li>Restore saved information when reopening or refreshing the application.</li>
+  <li>Keep the application functional without a backend or database.</li>
+</ul>
 
-👋 Simple Onboarding
+<h3>📱 Responsive Design</h3>
+<ul>
+  <li>Clean, minimal, and modern interface.</li>
+  <li>Responsive layouts for mobile, tablet, and desktop.</li>
+  <li>Consistent spacing, readable typography, and clear visual hierarchy.</li>
+  <li>Interactive buttons, form states, and navigation.</li>
+</ul>
 
-- Start with a welcoming page that asks for your name.
-- Save your name locally for subsequent visits.
-- Display a personalized greeting on the dashboard.
-- Skip onboarding when a saved name is available.
+<h2>🎨 Design Philosophy</h2>
 
-💾 Local Data Persistence
+<p>
+  The interface follows a minimal design system focused on clarity, usability, and simplicity.
+</p>
 
-- Save budgets, expenses, and the user's name in "localStorage".
-- Restore saved information when reopening or refreshing the application.
-- Keep the application functional without a backend or database.
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Design</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Primary accent</td><td>Teal blue</td></tr>
+    <tr><td>Base theme</td><td>Black and white</td></tr>
+    <tr><td>Layout</td><td>Clean, card-based interface</td></tr>
+    <tr><td>Navigation</td><td>Simple, intuitive navigation</td></tr>
+    <tr><td>Feedback</td><td>Clear validation and spending indicators</td></tr>
+    <tr><td>Responsiveness</td><td>Mobile-first layout</td></tr>
+  </tbody>
+</table>
 
-📱 Responsive Design
+<p>
+  The goal is to make managing personal budgets straightforward without overwhelming
+  users with unnecessary features.
+</p>
 
-- Clean, minimal, and modern interface.
-- Responsive layouts for mobile, tablet, and desktop.
-- Consistent spacing, readable typography, and clear visual hierarchy.
-- Interactive buttons, form states, and navigation.
+<h2>🛠️ Tech Stack</h2>
 
----
+<table>
+  <thead>
+    <tr>
+      <th>Technology</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>React.js</td><td>Building the user interface</td></tr>
+    <tr><td>JavaScript (ES6+)</td><td>Application logic</td></tr>
+    <tr><td>React Router 6.8</td><td>Client-side navigation</td></tr>
+    <tr><td>HTML5</td><td>Application structure</td></tr>
+    <tr><td>CSS3</td><td>Styling and responsive layouts</td></tr>
+    <tr><td>React Hooks</td><td>Component state and lifecycle management</td></tr>
+    <tr><td><code>localStorage</code></td><td>Browser-based data persistence</td></tr>
+    <tr><td>Vite</td><td>Development server and production build</td></tr>
+  </tbody>
+</table>
 
-🎨 Design Philosophy
+<h2>📂 Project Structure</h2>
 
-The interface follows a minimal design system focused on clarity, usability, and simplicity.
-
-Element| Design
-Primary accent| Teal Blue
-Base theme| Black and White
-Layout| Clean, card-based interface
-Navigation| Simple, intuitive navigation
-Feedback| Clear validation and spending indicators
-Responsiveness| Mobile-first layout
-
-The goal is to make managing personal budgets straightforward without overwhelming users with unnecessary features.
-
----
-
-🛠️ Tech Stack
-
-Technology| Purpose
-React.js| Building the user interface
-JavaScript (ES6+)| Application logic
-React Router 6.8| Client-side navigation
-HTML5| Application structure
-CSS3| Styling and responsive layouts
-React Hooks| Component state and lifecycle management
-localStorage| Browser-based data persistence
-Vite| Development server and production build
-
----
-
-📂 Project Structure
-
+<pre>
 react-budget-tracker/
 ├── public/
 ├── src/
@@ -105,142 +141,152 @@ react-budget-tracker/
 ├── package.json
 ├── package-lock.json
 └── README.md
+</pre>
 
-The exact file structure may vary depending on the implementation.
+<p><em>The exact file structure may vary depending on the implementation.</em></p>
 
----
+<h2>🚀 Getting Started</h2>
 
-🚀 Getting Started
+<h3>Prerequisites</h3>
 
-Follow these steps to run the application locally.
+<ul>
+  <li><a href="https://nodejs.org/">Node.js</a></li>
+  <li>npm, included with Node.js</li>
+  <li>Git, optional for cloning the repository</li>
+</ul>
 
-Prerequisites
+<h3>Installation</h3>
 
-Install the following:
+<ol>
+  <li>
+    <strong>Clone the repository</strong>
+    <pre><code>git clone https://github.com/favas7907/react-budget-tracker.git
+cd react-budget-tracker</code></pre>
+  </li>
+  <li>
+    <strong>Install dependencies</strong>
+    <pre><code>npm install</code></pre>
+  </li>
+  <li>
+    <strong>Start the development server</strong>
+    <pre><code>npm run dev</code></pre>
+  </li>
+</ol>
 
-- "Node.js" (https://nodejs.org/)
-- npm, included with Node.js
-- Git (optional, for cloning the repository)
+<p>
+  Open the local URL displayed in your terminal to use the application.
+</p>
 
-1. Clone the Repository
+<h2>📦 Production Build</h2>
 
-git clone https://github.com/YOUR_USERNAME/react-budget-tracker.git
+<p>Create an optimized production build:</p>
 
-Replace "YOUR_USERNAME" with your GitHub username.
+<pre><code>npm run build</code></pre>
 
-2. Navigate to the Project
+<p>Preview the production build locally:</p>
 
-cd react-budget-tracker
+<pre><code>npm run preview</code></pre>
 
-3. Install Dependencies
+<p>
+  Vite generates the production files in the <code>dist/</code> directory.
+</p>
 
-npm install
+<h2>🌐 Deployment</h2>
 
-4. Start the Development Server
+<p>The application can be deployed to any suitable static hosting platform.</p>
 
-npm run dev
+<ul>
+  <li><a href="https://vercel.com/">Vercel</a> — straightforward deployment with GitHub integration.</li>
+  <li><a href="https://www.netlify.com/">Netlify</a> — static hosting with continuous deployment.</li>
+  <li><a href="https://pages.github.com/">GitHub Pages</a> — host the application directly from a GitHub repository.</li>
+</ul>
 
-Open the local URL displayed in your terminal to use the application.
+<h3>Deployment Notes</h3>
 
----
+<ul>
+  <li>Run <code>npm run build</code> before deploying if your hosting platform does not build automatically.</li>
+  <li>Configure the appropriate base path when deploying a Vite application to a GitHub Pages project site.</li>
+  <li>Configure your hosting platform to serve <code>index.html</code> for supported client-side routes when necessary.</li>
+  <li>Verify that refreshing the Dashboard, Budgets, or Expenses page works correctly after deployment.</li>
+</ul>
 
-📦 Production Build
+<h2>🔐 Data and Privacy</h2>
 
-Create an optimized production build:
+<p>
+  React Budget Tracker uses browser <code>localStorage</code> to persist information.
+</p>
 
-npm run build
+<ul>
+  <li>No backend database is required.</li>
+  <li>No account registration or authentication is required.</li>
+  <li>Data remains in the browser where it was saved.</li>
+  <li>Clearing browser storage or using a different browser or device may remove or make saved data unavailable.</li>
+</ul>
 
-Preview the production build locally:
+<blockquote>
+  <strong>Important:</strong> This application is a lightweight budgeting tool, not a secure financial records system.
+  Avoid storing sensitive financial or personal information.
+</blockquote>
 
-npm run preview
+<h2>🧠 What This Project Demonstrates</h2>
 
-Vite generates the production files in the "dist/" directory.
+<ul>
+  <li>Building reusable React components.</li>
+  <li>Managing application state with React Hooks.</li>
+  <li>Implementing navigation with React Router.</li>
+  <li>Creating and validating forms.</li>
+  <li>Handling relationships between budgets and expenses.</li>
+  <li>Calculating spending and remaining balances.</li>
+  <li>Persisting and restoring data with <code>localStorage</code>.</li>
+  <li>Designing responsive interfaces with CSS.</li>
+  <li>Preparing a frontend application for production deployment.</li>
+</ul>
 
----
+<h2>🔮 Future Improvements</h2>
 
-🌐 Deployment
+<ul>
+  <li>Expense editing.</li>
+  <li>Budget editing.</li>
+  <li>Expense filtering and sorting.</li>
+  <li>Monthly spending summaries.</li>
+  <li>Exporting expense records.</li>
+  <li>Optional dark and light themes.</li>
+</ul>
 
-The application can be deployed to a static hosting platform.
+<p>
+  These enhancements are optional; the core application is intentionally designed
+  to remain simple and easy to maintain.
+</p>
 
-Recommended options:
+<h2>📄 License</h2>
 
-- "Vercel" (https://vercel.com/) — straightforward deployment with GitHub integration.
-- "Netlify" (https://www.netlify.com/) — static hosting with continuous deployment.
-- "GitHub Pages" (https://pages.github.com/) — host the application directly from a GitHub repository.
+<p>
+  This project is open source and available under the
+  <a href="https://opensource.org/license/mit">MIT License</a>.
+</p>
 
-Deployment Notes
+<p>
+  If you intend to use this license, add a <code>LICENSE</code> file containing the
+  MIT License text to the repository.
+</p>
 
-- Run "npm run build" before deploying if your hosting platform does not build automatically.
-- Configure the appropriate base path if deploying a Vite application to a GitHub Pages project site.
-- Configure your hosting platform to serve "index.html" for supported client-side routes when necessary.
-- Verify that refreshing the Dashboard, Budgets, or Expenses page works correctly after deployment.
+<h2>👨‍💻 Author</h2>
 
----
+<p>
+  <strong>Favas</strong>
+</p>
 
-🔐 Data and Privacy
+<ul>
+  <li>
+    GitHub:
+    <a href="https://github.com/favas7907">@favas7907</a>
+  </li>
+</ul>
 
-React Budget Tracker uses browser "localStorage" to persist information.
+<hr />
 
-- No backend database is required.
-- No account registration or authentication is required.
-- Data remains in the browser where it was saved.
-- Clearing browser storage or using a different browser or device may remove or make saved data unavailable.
-
-Important: This application is a lightweight budgeting tool, not a secure financial records system. Avoid storing sensitive financial or personal information.
-
----
-
-🧠 What This Project Demonstrates
-
-This project provides practical experience with:
-
-- Building reusable React components.
-- Managing application state with React Hooks.
-- Implementing navigation with React Router.
-- Creating and validating forms.
-- Handling relationships between budgets and expenses.
-- Calculating spending and remaining balances.
-- Persisting and restoring data with "localStorage".
-- Designing responsive interfaces with CSS.
-- Preparing a frontend application for production deployment.
-
----
-
-🔮 Future Improvements
-
-Potential enhancements include:
-
-- Expense editing.
-- Budget editing.
-- Expense filtering and sorting.
-- Monthly spending summaries.
-- Exporting expense records.
-- Optional dark and light themes.
-
-These enhancements are optional; the core application is intentionally designed to remain simple and easy to maintain.
-
----
-
-📄 License
-
-This project is open source and available under the "MIT License" (https://opensource.org/license/mit).
-
-If you intend to use this license, add a "LICENSE" file containing the MIT License text to the repository.
-
----
-
-👨‍💻 Author
-
-YOUR NAME
-
-- GitHub: "@favas7907" (https://github.com/favas7907)
-
-Replace the placeholders with your actual profile details.
-
----
-
-<p align="center">
+<div align="center">
   <strong>Plan your budget. Track your spending. Stay in control.</strong>
   <br />
-  Built with React.js, React Router, and localStorage.
-</p>
+  Built with React.js, React Router, and <code>localStorage</code>.
+</div>
